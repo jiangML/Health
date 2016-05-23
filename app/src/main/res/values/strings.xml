@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">益健康</string>
+    <string name="host">http://sleep.rmmit.com</string>
+    <string name="login_interface">/hd.axd?Method=AndroidUserOperation.Login</string><!--登录接口-->
+    <string name="user_info_interface">http://sleep.rmmit.com/hd.axd?Method=AndroidUserOperation.GetClientUserInfo </string><!--获取用户信息接口-->
+
+    <!--菜单接口-->
+    <string name="sleep_day">http://sleep.rmmit.com/weixin/sleeptoday.aspx</string>
+    <string name="sleep_month">http://sleep.rmmit.com/weixin/sleepmonth.aspx</string>
+    <string name="health_report">http://sleep.rmmit.com/weixin/healthreport.aspx</string>
+    <string name="my_device">http://sleep.rmmit.com/weixin/mydevice.aspx</string>
+    <string name="about">http://sleep.rmmit.com/weixin/about.aspx</string>
+    <string name="feedback">http://sleep.rmmit.com/weixin/feedback.aspx</string>
+
+    <!--本地存储的用户信息-->
+    <string name="account">account</string>
+    <string name="password">password</string>
+    <string name="user_name">userName</string>
+    <string name="uid">uid</string>
+
+    <!--解析json字段-->
+    <string name="state">state</string>
+    <string name="userName">UserAccount</string>
+
+</resources>

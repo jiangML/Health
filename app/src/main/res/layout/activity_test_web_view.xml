@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="返回"
+            android:paddingLeft="5dp"
+            android:textSize="25sp"/>
+    </LinearLayout>
+   
+    <EditText
+        android:id="@+id/et_url"
+        android:hint="输入网址"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:maxLines="5"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="打开"/>
+
+    <WebView
+        android:id="@+id/wv_test"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </WebView>
+
+
+
+</LinearLayout>

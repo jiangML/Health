@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_sleep_day"
+            android:checked="true"
+            android:title="今日睡眠"/>
+        <item
+            android:id="@+id/item_sleep_month"
+            android:title="当月睡眠">
+        </item>
+
+        <item
+            android:id="@+id/item_health_report"
+            android:title="健康报告"/>
+        <item
+            android:id="@+id/item_my_device"
+            android:title="我的设备"/>
+        <item
+            android:id="@+id/item_about"
+            android:title="关于我们"/>
+        <item
+            android:id="@+id/item_feedback"
+            android:title="意见反馈"/>
+        <item
+            android:id="@+id/item_logout"
+            android:title="注销"/>
+    </group>
+</menu>
